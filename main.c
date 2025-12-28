@@ -16,7 +16,7 @@ int main() {
 
        
 
-    parse("test.exe", data, size); // передаем указатель и размер без &
+    parse("test.exe", data, size);  
 
     free(data);
     return 0;
